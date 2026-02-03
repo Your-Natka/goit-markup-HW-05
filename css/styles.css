@@ -595,11 +595,11 @@ a {
 }
 
 .footer-form-input {
-  width: 100%;
+  width: 264px;
   height: 40px;
   border: 1px solid var(--white);
   font-size: 12px;
-  line-height: 1.5;
+  line-height: 2;
   letter-spacing: 0.04em;
   padding-left: 16px;
   background: var(--navyblue);
@@ -716,10 +716,18 @@ a {
 
 .modal-btn:hover .modal-btn-icon {
   fill: var(--navy-blue);
+  background-color: #404bbf;
+  border: none;
 }
 
-.modal-btn:hover,
+.modal-btn:hover {
+  background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
+}
+
 .modal-btn:focus {
+  background-color: #404bbf;
   border: none;
   fill: #ffffff;
 }
@@ -934,16 +942,11 @@ a {
   margin-right: 8px;
 }
 .modal-btn:focus {
-  background-color: var(--ocean);
+  background-color: var(--ocean, #404bbf);
   border: none;
   fill: var(--white);
 }
 
-.modal-btn:focus {
-  background-color: var(--ocean);
-  border: none;
-  fill: var(--white);
-}
 .privacy-link {
   font-size: 12px;
   line-height: 1.17;
