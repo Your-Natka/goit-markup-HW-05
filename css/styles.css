@@ -781,6 +781,7 @@ a {
 .modal-agreement {
   margin-bottom: 24px;
 }
+
 .modal-form-icon {
   position: absolute;
   left: 16px;
@@ -861,31 +862,6 @@ a {
   cursor: pointer;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.modal-form-link {
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  transition:
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.checkbox-icon {
-  display: block;
-  align-items: center;
-  justify-content: center;
-  width: 16px;
-  height: 16px;
-  border: 2px solid black;
-  border-radius: 2px;
-}
-
-.checkbox-icon svg.form-icon {
-  visibility: hidden;
 }
 
 .policy-color {
